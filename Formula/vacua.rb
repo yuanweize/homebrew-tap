@@ -5,8 +5,8 @@ class Vacua < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yuanweize/vacua/releases/download/v0.2.0/vacua-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "48729e5c48b44a9de648926bf04dfabeaf352e3d9b5520c279f8f4bcc32cb96b"
+      url "https://github.com/yuanweize/vacua/releases/download/v0.3.0/vacua-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cbf4867240a530440b06d0e6aabf036b34ccfb6da5c0a43e75a6bcdb3b251cf3"
     end
   end
 
