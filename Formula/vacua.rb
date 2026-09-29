@@ -23,6 +23,6 @@ class Vacua < Formula
     assert_match "vacua #{version}", shell_output("#{bin}/vacua --version")
     assert_match "vacua-intelligence #{version}", shell_output("#{bin}/vacua-intelligence --version")
     assert_match "vacua-mcp #{version}", shell_output("#{bin}/vacua-mcp --version")
-    assert_match "Vacua MCP Server Self-Test: OK", shell_output("#{bin}/vacua-mcp --self-test")
+    assert_match "Vacua MCP Server Self-Test: OK", shell_output("#{bin}/vacua-mcp --self-test 2>&1")
   end
 end
