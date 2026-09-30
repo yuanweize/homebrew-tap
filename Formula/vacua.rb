@@ -1,12 +1,12 @@
 class Vacua < Formula
   desc "Explainable, safety-first storage intelligence for macOS"
   homepage "https://github.com/yuanweize/vacua"
-  license all_of: ["MIT", "Apache-2.0"]
+  license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yuanweize/vacua/releases/download/v0.7.1/vacua-v0.7.1-aarch64-apple-darwin.tar.gz"
-      sha256 "60fd089abd5bc9e32dd0ee4e68da329a851372434d885f31379086c5820c879c"
+      url "https://github.com/yuanweize/vacua/releases/download/v0.8.0/vacua-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "077f7137c1119e7928d4f2e1f711f10331a3babd065cf9f25d1b0b451b353aea"
     end
   end
 
